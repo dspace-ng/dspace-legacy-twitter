@@ -1,0 +1,31 @@
+{
+  "name": "dspace-legacy-twitter",
+  "version": "0.0.1",
+  "description": "Provides gateway to twitter silo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "dependencies": {
+    "nconf": "~0.6.7",
+    "lodash": "~2.2.1",
+    "faye": "~1.0.0",
+    "twit": "~1.1.11"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-develop": "~0.2.2",
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-markdown": "~0.4.0",
+    "grunt-notify": "~0.2.13",
+    "mocha": "~1.13.0",
+    "chai": "~1.8.1",
+    "sinon": "~1.7.3",
+    "sinon-chai": "~2.4.0"
+  }
+}
